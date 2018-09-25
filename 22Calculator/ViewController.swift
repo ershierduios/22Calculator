@@ -12,8 +12,33 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        display.text = "0"
     }
+    
+    @IBOutlet weak var display: UILabel!
+    
+    
+    @IBAction func clearDisplay(_ sender: UIButton) {
+        display.text = "0"
+    }
+    
+
+    @IBAction func digitBtnPressed(_ sender: UIButton) {
+        if let digitStr = sender.currentTitle, let curDisplayStr = display.text{
+            if curDisplayStr == "0"{
+                display.text = digitStr
+            } else {
+                display.text = curDisplayStr + digitStr
+            }
+        }
+    }
+    
+    
+    @IBAction func operatorPressed(_ sender: UIButton) {
+        
+    }
+    
 
 
 }
