@@ -72,6 +72,17 @@
                                     <action selector="clearDisplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7tW-Jf-Qpg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3A-Wa-avl" colorLabel="IBBuiltInLabel-Red">
+                                <rect key="frame" x="84" y="231" width="76" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="±"/>
+                                <connections>
+                                    <action selector="clearDisplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yoz-30-MRE"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agM-ng-iQu" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="0.0" y="369" width="76" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -142,7 +153,7 @@
                                 <rect key="frame" x="252" y="438" width="68" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -153,7 +164,7 @@
                                 <rect key="frame" x="252" y="369" width="68" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-"/>
                             </button>
@@ -161,7 +172,7 @@
                                 <rect key="frame" x="252" y="300" width="68" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="x"/>
                             </button>
@@ -169,7 +180,7 @@
                                 <rect key="frame" x="252" y="231" width="68" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="/"/>
                             </button>
@@ -177,7 +188,7 @@
                                 <rect key="frame" x="252" y="507" width="68" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="="/>
                             </button>
@@ -196,6 +207,17 @@
                                 <state key="normal" title="C"/>
                                 <connections>
                                     <action selector="clearDisplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wzy-ff-FgE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sE0-nI-4ah" colorLabel="IBBuiltInLabel-Red">
+                                <rect key="frame" x="168" y="230" width="76" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="√"/>
+                                <connections>
+                                    <action selector="clearDisplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tdi-JJ-D5H"/>
                                 </connections>
                             </button>
                         </subviews>
