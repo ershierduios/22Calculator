@@ -23,7 +23,11 @@ class ViewController: UIViewController {
         display.text = "0"
     }
     
-
+    @IBAction func deleteDisplay(_ sender: UIButton) {
+        
+    }
+    
+    
     @IBAction func digitBtnPressed(_ sender: UIButton) {
         if let digitStr = sender.currentTitle, let curDisplayStr = display.text{
             if curDisplayStr == "0"{
